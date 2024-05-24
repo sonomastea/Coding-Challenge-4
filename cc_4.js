@@ -23,12 +23,22 @@ class Car{
         }
     }
     //Step 2 
-    
+
  chargebattery(charge to) {
     this.charge=charge to;
     console.log(`New charge : $
         {this.charge}%`);
        }
+
+    //Step 3
+
+    accelerate(){
+        this.speed += 20;
+        this.charge -=1;
+        console.log(`New Speed: $
+            {this.spped} km/h`)
+
+    }
  
 
 }
