@@ -39,6 +39,14 @@ class Car{
             {this.spped} km/h`)
 
     }
- 
+
 
 }
+
+//Step 4
+const car3 = new EV (`Tesla`,120,23)
+console.log (`Car 3: ${car3.speed} km/h`);
+car3.accelerate();
+car3.accelerate();
+car3.chargebattery(50);
+car3.brake();
