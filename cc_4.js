@@ -23,4 +23,12 @@ class Car{
         }
     }
     //Step 2 
+    
+ chargebattery(charge to) {
+    this.charge=charge to;
+    console.log(`New charge : $
+        {this.charge}%`);
+       }
+ 
+
 }
