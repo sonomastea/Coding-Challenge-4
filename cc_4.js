@@ -44,9 +44,13 @@ class Car{
 }
 
 //Step 4
-const  = new EV (`Tesla`,120,23)
-console.log (`Car 3: ${car3.speed} km/h`);
-car3.accelerate();
-car3.accelerate();
-car3.chargebattery(50);
-car3.brake();
+const ev1 = new EV (`Tesla`,120,23)
+console.log (`Car 1: ${ev1.make},
+starting speed: {ev1.speed} km/h, 
+with a battery charge of ${ev1.charge}%`);
+ev1.accelerate();
+ev1.accelerate();
+ev1.brake();
+ev1.chargebattery(50);
+ev1.accelerate();
+
