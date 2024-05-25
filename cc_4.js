@@ -35,16 +35,16 @@ class Car{
     accelerate(){
         this.speed += 20;
         this.charge -=1;
-        console.log(`New Speed: $
-            {this.spped} km/h`)
-
+        console.log(`{this.make} going at
+         ${this.speed}km/h, with a charge of $
+         {this.charge}%`)
     }
 
 
 }
 
 //Step 4
-const car3 = new EV (`Tesla`,120,23)
+const  = new EV (`Tesla`,120,23)
 console.log (`Car 3: ${car3.speed} km/h`);
 car3.accelerate();
 car3.accelerate();
